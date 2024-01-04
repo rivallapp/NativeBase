@@ -1,5 +1,8 @@
 {
-  "name": "native-base",
+  "name": "@rivallapp/native-base",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "Essential cross-platform UI components for React Native",
   "sideEffects": false,
   "keywords": [
@@ -36,7 +39,7 @@
       "prettier --write"
     ]
   },
-  "version": "3.4.28",
+  "version": "3.4.29",
   "license": "MIT",
   "private": false,
   "main": "lib/commonjs/index",
@@ -122,7 +125,6 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "yarn lint-staged"
     }
   },
@@ -192,7 +194,7 @@
     "@react-stately/checkbox": "3.0.3",
     "@react-stately/collections": "3.3.0",
     "@react-stately/combobox": "3.0.0-alpha.1",
-    "@react-stately/radio": "3.2.1",
+    "@react-stately/radio": "3.10.1",
     "@react-stately/slider": "3.0.1",
     "@react-stately/tabs": "3.0.0-alpha.1",
     "@react-stately/toggle": "3.2.1",
@@ -218,11 +220,11 @@
     "lib": "lib"
   },
   "gitHead": "5bbeacc403ba97622703699132c55d8359344004",
-  "homepage": "https://github.com/GeekyAnts/NativeBase#readme",
+  "homepage": "https://github.com/rivallapp/NativeBase#readme",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GeekyAnts/NativeBase.git"
+    "url": "git+https://github.com/rivallapp/NativeBase.git"
   },
   "collective": {
     "type": "opencollective",
